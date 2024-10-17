@@ -1,0 +1,154 @@
+body {
+    background-color: #330000;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px; 
+    margin: 0; /* Removes default margin */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Page fills up screen */
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline; /* so the list is not vertical but horizontal*/
+    margin: 0 10px; /* 10px of space in between each lst item*/
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px; /* Font size for navigation links */
+}
+
+nav ul li a:hover {
+    color: #660000; /* Change color on hover */
+}
+
+/* targets anchor elements (<a> anchor tag in html is used to create hyperlinks) */
+a {
+    color: #ffffff;
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    color: #660000; 
+}
+
+main {
+    flex: 1; /*fills available space */
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px; 
+
+}
+
+h1 {
+    font-size: 32px; 
+}
+
+h2 {
+    font-size: 28px; 
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 24px; 
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px; 
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px; /* Indents list items */
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.image-size {
+    width: 350px; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+	float: left;
+	margin-right: 20px;
+}
+
+/* Home Page Layout */
+.home-page main {
+    display: flex; 
+}
+
+.home-page .text-container {
+    flex: 1; /* Text takes up available space */
+    margin-right: 50px; /* Adds space between text and image */
+
+}
+
+.home-page .image-container {
+    width: 370px; 
+    display: flex; /* Ensures proper alignment */
+	margin-right: -150px;
+}
+
+
+.video-container {
+	flex: 30;
+    margin-top: -150px; 
+}
+
+video {
+    width: 35%; 
+    height: auto; /* Maintains aspect ratio */
+	padding-left: 260px;
+}
+
+
+.professional-page .video-container2 {
+	flex: 30;
+    margin-top: -150px; /* Adds space above the video */
+}
+
+.video-container2 video {
+    width: 11%; 
+    height: auto; /* Maintains aspect ratio */
+	margin-right: -150px;
+    margin-top: -210px; 
+	padding-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
